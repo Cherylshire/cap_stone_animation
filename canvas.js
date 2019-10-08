@@ -40,7 +40,7 @@ function animate() {
     } else {
       var x = canvas.width - ((i * 50) - canvas.width)
     }
-    var y = i * 10;
+    var y = i * 20;
     var radius = 60;
     circleArray.push(new Circle(x, y, radius));
   } 
@@ -58,6 +58,8 @@ function animate() {
 }
 
 animate();
+
+
 
 // serializer: store an array in a database.
 // basic animation library in JavaScript library.
